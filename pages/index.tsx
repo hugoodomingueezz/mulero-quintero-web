@@ -1,7 +1,10 @@
 import Link from "next/link";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
+  
   const stores = [
     {
       id: 1,
@@ -70,19 +73,19 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
           <h1 className="text-7xl md:text-8xl font-black mb-6 text-white leading-tight">
-            LA FUERZA DE LA CONSTRUCCIÓN
+            {t("hero.title")}
           </h1>
           <p className="text-2xl text-gray-300 mb-12 max-w-2xl leading-relaxed font-light">
-            Un proyecto realizado para que los almacenes de materiales de construcción accedan a un mercado altamente competitivo con las mejores condiciones de compra.
+            {t("hero.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/categorias">
               <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-10 rounded text-lg transition-colors duration-200 shadow-lg">
-                Explorar Catálogo
+                {t("hero.exploreCatalog")}
               </button>
             </Link>
             <button className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-4 px-10 rounded text-lg transition-colors duration-200 shadow-lg border border-gray-600">
-              Ver Más Información
+              {t("hero.moreInfo")}
             </button>
           </div>
         </div>
@@ -93,12 +96,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-16">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-2">Marcas de Confianza</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-2">{t("brands.title")}</h2>
               <div className="h-1 w-20 bg-red-600 rounded"></div>
             </div>
             <Link href="#marcas">
               <button className="text-red-600 hover:text-red-700 font-bold text-lg transition">
-                Ver más →
+                {t("brands.viewMore")}
               </button>
             </Link>
           </div>
@@ -115,7 +118,7 @@ export default function Home() {
       {/* Nuestras Tiendas Section */}
       <div className="bg-gray-50 py-20 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">Nuestras Tiendas</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">{t("stores.title")}</h2>
           <div className="h-1 w-20 bg-red-600 rounded mx-auto mb-16"></div>
           
           {/* Mapa Section */}
@@ -140,24 +143,24 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <div className="mb-4">
-                    <p className="text-gray-600 text-sm font-semibold mb-1">DIRECCIÓN</p>
+                    <p className="text-gray-600 text-sm font-semibold mb-1">{t("stores.address")}</p>
                     <p className="text-gray-900 font-medium">{store.address}</p>
                     <p className="text-gray-700">{store.city}</p>
                     <p className="text-gray-700">{store.province}</p>
                   </div>
                   <div className="mb-4">
-                    <p className="text-gray-600 text-sm font-semibold mb-1">TELÉFONO</p>
+                    <p className="text-gray-600 text-sm font-semibold mb-1">{t("stores.phone")}</p>
                     <a href={`tel:${store.phone}`} className="text-red-600 hover:text-red-700 font-semibold">
                       {store.phone}
                     </a>
                   </div>
                   <div className="mb-6">
-                    <p className="text-gray-600 text-sm font-semibold mb-1">HORARIO</p>
+                    <p className="text-gray-600 text-sm font-semibold mb-1">{t("stores.hours")}</p>
                     <p className="text-gray-900">{store.hours}</p>
                   </div>
                   <Link href="/contacto">
                     <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">
-                      Solicitar Presupuesto
+                      {t("stores.budget")}
                     </button>
                   </Link>
                 </div>

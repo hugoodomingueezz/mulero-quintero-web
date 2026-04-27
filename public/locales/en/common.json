@@ -1,0 +1,44 @@
+{
+  "phone": "📞 +34 000 000 000",
+  "email": "✉️ info@muleroquintero.es",
+  "language": "EN English",
+  "header": {
+    "home": "Home",
+    "products": "Products",
+    "blog": "Blog",
+    "brands": "Brands",
+    "contact": "Contact",
+    "budget": "Request Quote"
+  },
+  "hero": {
+    "title": "THE STRENGTH OF CONSTRUCTION",
+    "description": "A project designed to provide construction material stores access to a highly competitive market with the best purchasing conditions.",
+    "exploreCatalog": "Explore Catalog",
+    "moreInfo": "More Information"
+  },
+  "brands": {
+    "title": "Trusted Brands",
+    "viewMore": "View more →"
+  },
+  "stores": {
+    "title": "Our Stores",
+    "mapTitle": "Location",
+    "address": "ADDRESS",
+    "phone": "PHONE",
+    "hours": "HOURS",
+    "budget": "Request Quote",
+    "fregenal": "Mulero Quintero - Fregenal",
+    "higuera": "Mulero Quintero - Higuera"
+  },
+  "categories": {
+    "title": "Main Categories",
+    "viewMore": "View more →"
+  },
+  "footer": {
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

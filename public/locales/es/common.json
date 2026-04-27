@@ -1,0 +1,44 @@
+{
+  "phone": "📞 +34 000 000 000",
+  "email": "✉️ info@muleroquintero.es",
+  "language": "ES Español",
+  "header": {
+    "home": "Inicio",
+    "products": "Productos",
+    "blog": "Blog",
+    "brands": "Marcas",
+    "contact": "Contacto",
+    "budget": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "title": "LA FUERZA DE LA CONSTRUCCIÓN",
+    "description": "Un proyecto realizado para que los almacenes de materiales de construcción accedan a un mercado altamente competitivo con las mejores condiciones de compra.",
+    "exploreCatalog": "Explorar Catálogo",
+    "moreInfo": "Ver Más Información"
+  },
+  "brands": {
+    "title": "Marcas de Confianza",
+    "viewMore": "Ver más →"
+  },
+  "stores": {
+    "title": "Nuestras Tiendas",
+    "mapTitle": "Ubicación",
+    "address": "DIRECCIÓN",
+    "phone": "TELÉFONO",
+    "hours": "HORARIO",
+    "budget": "Solicitar Presupuesto",
+    "fregenal": "Mulero Quintero - Fregenal",
+    "higuera": "Mulero Quintero - Higuera"
+  },
+  "categories": {
+    "title": "Categorías Principales",
+    "viewMore": "Ver más →"
+  },
+  "footer": {
+    "about": "Sobre Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}

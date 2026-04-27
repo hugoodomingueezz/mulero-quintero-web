@@ -1,0 +1,44 @@
+{
+  "phone": "📞 +34 000 000 000",
+  "email": "✉️ info@muleroquintero.es",
+  "language": "PT Português",
+  "header": {
+    "home": "Início",
+    "products": "Produtos",
+    "blog": "Blog",
+    "brands": "Marcas",
+    "contact": "Contacto",
+    "budget": "Solicitar Orçamento"
+  },
+  "hero": {
+    "title": "A FORÇA DA CONSTRUÇÃO",
+    "description": "Um projeto criado para que as lojas de materiais de construção tenham acesso a um mercado altamente competitivo com as melhores condições de compra.",
+    "exploreCatalog": "Explorar Catálogo",
+    "moreInfo": "Ver Mais Informações"
+  },
+  "brands": {
+    "title": "Marcas Confiáveis",
+    "viewMore": "Ver mais →"
+  },
+  "stores": {
+    "title": "Nossas Lojas",
+    "mapTitle": "Localização",
+    "address": "ENDEREÇO",
+    "phone": "TELEFONE",
+    "hours": "HORÁRIO",
+    "budget": "Solicitar Orçamento",
+    "fregenal": "Mulero Quintero - Fregenal",
+    "higuera": "Mulero Quintero - Higuera"
+  },
+  "categories": {
+    "title": "Categorias Principais",
+    "viewMore": "Ver mais →"
+  },
+  "footer": {
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "contact": "Contacto",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  }
+}
