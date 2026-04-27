@@ -125,9 +125,9 @@ export default function Home() {
               height="450" 
               style={{ border: 0 }}
               loading="lazy" 
-              allowFullScreen 
+              allowFullScreen={true}
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12345.67890!2d-6.375!3d38.206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1682000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000.0!2d-6.375!3d38.206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4d4d4d4d4d4d5%3A0xd4d4d4d4d4d4d6!2sFregenal%20de%20la%20Sierra%20Pol%C3%ADgono!5e0!3m2!1ses!2ses!4v1682000000001"
             ></iframe>
           </div>
 
@@ -155,9 +155,11 @@ export default function Home() {
                     <p className="text-gray-600 text-sm font-semibold mb-1">HORARIO</p>
                     <p className="text-gray-900">{store.hours}</p>
                   </div>
-                  <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">
-                    Solicitar Presupuesto
-                  </button>
+                  <Link href="/contacto">
+                    <button className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200">
+                      Solicitar Presupuesto
+                    </button>
+                  </Link>
                 </div>
               </div>
             ))}

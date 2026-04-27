@@ -20,10 +20,6 @@ export default function Header() {
                 <option>PT Português</option>
                 <option>EN English</option>
               </select>
-              <span className="text-gray-600">|</span>
-              <a href="#" className="hover:text-white transition font-medium">
-                Entrar
-              </a>
             </div>
           </div>
         </div>
@@ -71,9 +67,11 @@ export default function Header() {
                   Contacto
                 </button>
               </Link>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded font-semibold transition-colors duration-200 ml-4">
-                Solicitar Presupuesto
-              </button>
+              <Link href="/contacto">
+                <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded font-semibold transition-colors duration-200 ml-4">
+                  Solicitar Presupuesto
+                </button>
+              </Link>
             </nav>
 
             {/* Mobile Menu Button */}
@@ -105,9 +103,11 @@ export default function Header() {
               <Link href="/contacto">
                 <a className="block hover:text-red-500 transition py-2 font-medium">Contacto</a>
               </Link>
-              <button className="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded font-semibold transition-colors duration-200 mt-4">
-                Solicitar Presupuesto
-              </button>
+              <Link href="/contacto">
+                <button className="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded font-semibold transition-colors duration-200 mt-4">
+                  Solicitar Presupuesto
+                </button>
+              </Link>
             </div>
           )}
         </div>
