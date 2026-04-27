@@ -9,7 +9,7 @@ interface CategoryCardProps {
 }
 
 export default function CategoryCard({ nombre, slug, count }: CategoryCardProps) {
-  const categoryIcons: Record<string, JSX.Element> = {
+  const categoryIcons: Record<string, React.ReactElement> = {
     cementos: (
       <svg className="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v18m0 0l-8-8m8 8l8-8" />
